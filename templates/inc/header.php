@@ -4,7 +4,7 @@
 	<title>JobLister</title>
 	<link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
 	<link rel="stylesheet" href="https://getbootstrap.com/docs/3.4/dist/css/bootstrap.min.css">
-	
+
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -18,4 +18,4 @@
         </nav>
         <h3 class="text-muted"><?php echo SITE_TITLE; ?></h3>
       </div>
-
+			<?php displayMessage(); ?>
